@@ -1,0 +1,48 @@
+body {
+    margin: 2.5em;
+}
+p {
+    text-indent: 25px;
+}
+.socialLinks {
+    float: right;
+    margin-top: -75px;
+}
+.linkedin{
+    margin-left: -35px;
+}
+.linkedin img{
+    height: 125px;
+}
+.git{
+    margin-left: 15px;
+}
+.git img{
+    height: 100px;
+}
+.hobbiesImg{
+    float: left; 
+    padding-right: 2em;
+    padding-top: .25em;
+}
+.hobbiesImg img{
+    height: 150px;
+}
+.hobbies{
+    margin-right: 100px;
+    margin-left: 150px;
+}
+.hobbiesimgdiv img{
+    height: 150px;
+}
+.reasons{
+    margin-right: 15em;
+}
+footer{
+    text-align: center; 
+    padding-top: 45px
+}
+footer img{
+    height: 50px; 
+    object-fit: cover;
+}

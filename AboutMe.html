@@ -1,50 +1,55 @@
 <!--Thomas Beck -->
+
+<!--Move styles into CSS file-->
+<!--Figure out how to make page responsive to screen size-->
 <!DOCTYPE html>
 <html>
   <head>
     <title>About Me: Thomas Beck</title>
+    <link rel="stylesheet" href="AboutMe.css"/>
+
   </head>
-  <body style="margin: 2.5em;">
+  <body>
     <h1>Thomas Beck</h1>
-    <div style="float: right; margin-top: -75px;">
+    <div class="socialLinks">
       <h2>Social Links</h2>
-      <div style="margin-left: -35px;">
+      <div class="linkedin">
         <a href="https://www.linkedin.com/in/thomas-beck-6130418a/"
           ><img
             src="https://brand.linkedin.com/apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/default-share.png"
-            style="height: 125px"
             alt="Linkedin"
         /></a>
         </div>
-        <div style="margin-left: 15px;">
+        <div class="git">
           <a href="https://github.com/BeckTJ"
             ><img
               src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
-              style="height: 100px"
               alt="Linkedin"
           /></a>
         </div>
       </div>
     </div>
-    <div>
+    <div class="aboutMe">
       <h2>About Me:</h2>
-      <p style="text-indent: 25px;">Currently, I am a distillation operator with EMD Electronics. I have been working with this company
+      <p>Currently, I am a distillation operator with EMD Electronics. I have been working with this company
         for 4 years. For the last year and a half I have been teaching my self to program. Mainly C# and T-SQL,
-        however, Frontend is important so I have been learning React-Native. 
+        however, Frontend is important so I have been learning React-Native. My Javascript skills are a bit lacking, which makes it 
+        difficult to use React. 
       </p>
-        <p style="text-indent: 25px;">I enjoy programming because it requires constant learning and keeps the mind engaged. I am working on a career switch and 
-          making it what I do for a living. Hope that doesn't destroy the love.
+        <p>I enjoy programming because it requires constant learning and it keeps the mind engaged. I am working on a career switch and 
+          making programming what I do for a living. Hope that doesn't destroy the enjoyment. I have put a link to my github account, however it is rather empty. I haven't 
+          uploaded many files. It's on the todo list. 
       </p>
     </div>
-    <div style="float: left; padding-right: 2em;">
+    <div class="hobbiesImg">
       <div>
-      <img style="height: 150px" src="https://www.4wd.com/sku/Rampage/400x400/68835.jpg" alt="Not My Jeep but Close"/>
+      <img src="https://www.4wd.com/sku/Rampage/400x400/68835.jpg" alt="Not My Jeep but Close"/>
       </div>
       <div>
-      <img style="height: 150px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-NWfCj_f7ggy0YV3ywQySpL3t3WuONhCHoRW-7UWcXt2z2q41Omz9do_Tk8CfUaq8cRY&usqp=CAU" alt="Also not my computer"/>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-NWfCj_f7ggy0YV3ywQySpL3t3WuONhCHoRW-7UWcXt2z2q41Omz9do_Tk8CfUaq8cRY&usqp=CAU" alt="Also not my computer"/>
     </div>
   </div>
-    <div style="margin-right: 100px;">
+    <div style="margin-right: 100px;margin-left: 150px;">
       <h2>Hobbies:</h2>
       <ul>
         <li>Fixing Cars</li>
@@ -57,12 +62,16 @@
         <p>When i have free time I work on a program that I am building to solve a problem at work. As I learn
         I update and refactor the program. It is a very slow process. Very worth it.</p>
       </ul>
-    </div>
-    <div style="margin-right: 15em;">
+  </div>
+    <div class="reasons">
       <h2>Reason For Taking This Class:</h2>
-      <p style="text-indent: 25px;">I decided to take this class to improve my frontend skills. Focusing mostly on Javascript. I am also
-      here to find connections, those that enjoy building, modifing, and going crazy trying to figure out how it all works.
+      <p>I decided to take this class to improve my frontend skills. Focusing mostly on Javascript. I am also
+      here to build connections, those that enjoy building, modifing, and going crazy trying to figure out how it all works.
     </p>
     </div>
   </body>
+  <footer>
+    <hr/>
+    <a href="https://quix.academy/"><img src="https://quix.academy/wp-content/uploads/2022/06/logo-2.png" alt="Quix Academy"></a>
+  </footer>
 </html>
