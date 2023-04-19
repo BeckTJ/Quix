@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Page is very boring
+    use a background image for main page - need to figure out how to change opacity
+    keep user profile the same size and shrink header img
+    right border should also adjust to screen size-->
+<!-- Aside - *Complete*
+`   Needs to stop before footer.
+    should remain on the left side of the screen regardless of screen size
+    move down only as top of page is reached-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More About Me: Thomas Beck</title>
+    <link rel="stylesheet" href="AboutMe.css" />
+    <script src="/scripts/AboutMe.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="darkness" id="fear">
+            <img class="headerimg" src="/Assets/thedarkness.jpg" alt="the darkness" />
+        </div>
+        <div class="userProfile" id="user">
+            <img class="profilePhoto" src="/Assets/Thomas.jpg" alt="Times Since" />
+            <h2 id="user">Thomas Beck</h2>
+        </div>
+    </div>
+    <hr>
+
+    <aside class="socialLinks">
+        <h3><u>Social Links</u></h3>
+        <div class="linkedin">
+            <a href="https://www.linkedin.com/in/thomas-beck-6130418a/"><img
+                    src="https://brand.linkedin.com/apps/settings/wcm/designs/linkedin/katy/global/clientlibs/resources/img/default-share.png"
+                    alt="Linkedin" /></a>
+        </div>
+        <div class="git">
+            <a href="https://github.com/BeckTJ"><img
+                    src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                    alt="Linkedin" /></a>
+        </div>
+        </div>
+    </aside>
+
+    <div class="mainPage">
+        <div class="aboutMe">
+            <h1 class="uppercase"><u>About Me</u>:</h1>
+            <p>Currently, I am a distillation operator with EMD Electronics. I have been working with this company
+                for 4 years. For the last year and a half I have been teaching my self to program. Mainly C# and T-SQL,
+                however, Frontend is important so I have been learning React-Native. My Javascript skills are a bit
+                lacking, which makes it
+                difficult to use React.
+            </p>
+            <p>I enjoy programming because it requires constant learning and it keeps the mind engaged. I am working on
+                a career switch and
+                making programming what I do for a living. Hope that doesn't destroy the enjoyment. I have put a link to
+                my github account, however it is rather empty. I haven't
+                uploaded many files. It's on the todo list.
+            </p>
+        </div>
+        <div class="hobbiesImg">
+            <div>
+                <img src="https://www.4wd.com/sku/Rampage/400x400/68835.jpg" alt="Not My Jeep but Close" />
+            </div>
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-NWfCj_f7ggy0YV3ywQySpL3t3WuONhCHoRW-7UWcXt2z2q41Omz9do_Tk8CfUaq8cRY&usqp=CAU"
+                    alt="Also not my computer" />
+            </div>
+        </div>
+        <div class="hobbies">
+            <h2 class="uppercase"><u>Hobbies</u>:</h2>
+            <ul>
+                <li>Fixing Cars</li>
+                <ul>
+                    <li>Specifically my Jeep. Need to get it offroad ready.</li>
+                </ul>
+                <li>Video Games</li>
+                <ul>
+                    <li>
+                        GamerTag: Lost1nTim3
+
+                    </li>
+                    <li>Overwatch, Destiny & Borderlands to name a few. Not a big fan of Battleroyals, mainly because I
+                        don't live long enough and sit in queue more then actual game time. These days your more likly
+                        to find my daughter on my account.
+                    </li>
+                </ul>
+                <li>Programming</li>
+                <ul>
+                    <li>When i have free time I work on a program that I am building to solve a problem at work. As I
+                        learn
+                        I update and refactor the program. It is a very slow process. Very worth it.</p>
+                </ul>
+            </ul>
+        </div>
+        <div class="reasons">
+            <h2><u>Reason For Taking This Class</u>:</h2>
+            <p>I decided to take this class to improve my frontend skills. Focusing mostly on Javascript. I am also
+                here to build connections, those that enjoy building, modifing, and going crazy trying to figure out how
+                it all works.
+            </p>
+        </div>
+    </div>
+    <div class="moreAboutMe">
+        <h1 class="uppercase"><u>More About Me</u>: </h1>
+        <div class="more"><!--change background color-->
+            <p class="uppercase">My favorite color is <span id="favoriteColor">GREEN</span>. <!--change text color-->
+                My cats name is <mark>Ino</mark>.<!--make name semantically important-->
+                The <sup>highest</sup> point of my day is <strong>Nap Time</strong>!<!--superscript and bold-->
+                The <sub>lowest</sub> point of the day is <i>going to work</i>.<!--Subscript and italics-->
+                I <span>don't</span> know how to ...<!--strikethrough-->
+                YEE <em>HAW!</em></p><!--sentance with yee haw emphasize haw-->
+        </div>
+    </div>
+</body>
+<footer>
+    <hr />
+    <a href="https://quix.academy/"><img src="https://quix.academy/wp-content/uploads/2022/06/logo-2.png"
+            alt="Quix Academy"></a>
+</footer>
+</body>
+
+</html>

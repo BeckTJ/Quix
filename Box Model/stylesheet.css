@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+div{
+    background-color: lightblue;
+    border: solid red 5px;
+    padding: 10px;
+    text-align: center;
+}
+.first{
+    width: 300px;
+}
+.first,.second{
+    margin: 70px;
+}
+.third{
+    margin: 150px 30px;
+}
+.third:hover{
+    background-color: red;
+}
