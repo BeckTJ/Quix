@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+
+body{
+    padding: 25px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    background-color: darkgray;
+}
+table{
+    width: 400px;
+    text-align: center;
+}
+table,th,td{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+.inputForm{
+    width: 255px;
+    height: 175px;
+    background-color:aliceblue;
+    border-style: solid;
+    border-top-width: none;
+    border-width: 1.5px;
+    text-align: center;
+
+}
+.userInput{
+    width: max-content;
+    margin: 20px 45px;
+    text-align: right;
+}
+.userInputText{
+    margin: 5px;
+}
+.userInputText input[type=text]{
+    width: 75px;
+}
+.userOutput{
+    margin-top: 20px;
+    width: max-content;
+    border: 1px solid;
+    background-color: antiquewhite;
+}

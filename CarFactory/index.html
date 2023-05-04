@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/tabStyle.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="tab">
+        <input class="tabs" onClick="openTab(event,'submitTab')" type="button" value="Submit">
+        <input class="tabs" onClick="openTab(event,'updateTab')" type="button" value="Update">
+        <input class="tabs" onClick="openTab(event,'deleteTab')" type="button" value="Delete">
+    </div>
+    <div class="inputForm">
+        <div id="submitTab" class="userInput">
+            <div class="userInputText">
+                <label for="year">Year:</label>
+                <input type="text" name="year" id="year">
+            </div>
+            <div class="userInputText">
+                <label for="make">Make:</label>
+                <input type="text" name="make" id="make">
+            </div>
+            <div class="userInputText">
+                <label for="model">Model:</label>
+                <input type="text" name="model" id="model">
+            </div>
+        </div>
+
+        <!--Remove inline css when finished-->
+        <div id="updateTab" style="display:none">
+            <label for="selection">Vehicle:</label>
+            <input type="search" name="selection" id="selection">
+        </div>
+
+        <div id="deleteTab" style="display:none">
+            <label for="deleteSelection">Vehicle:</label>
+            <input type="search" name="deleteSelection" id="deleteSelection">
+        </div>
+
+        <div class="userInputBtn">
+            <input id="submitBtn" type="button" value="Submit">
+        </div>
+    </div>
+
+    <div class="userOutput">
+        <table id="outputTable">
+            <tr>
+                <th>Year</th>
+                <th>Make</th>
+                <th>Model</th>
+            </tr>
+        </table>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>

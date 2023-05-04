@@ -1,0 +1,16 @@
+.tab {
+    overflow: hidden;
+    width: max-content;
+    border-style:solid;
+    border-width: 1.5px;
+    background-color:aliceblue;
+  }
+
+.tab input[type=button]{
+    float: left;
+    border: none;
+    font-size: 20px;
+}
+.tab input[type=button].active{
+    background-color: aliceblue;
+}
