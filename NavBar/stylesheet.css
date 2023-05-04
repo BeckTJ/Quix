@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+/* Removing bulletpoints, margins and padding from our <ul> (unordered list) */
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Making our <li> (list items) "float" next to each other 
+(only works on block elements) */
+li{
+    float: left;
+}
+/* Setting our <a> (hyperlinks) to display type "block", giving the inner text some 
+space, and setting a bg color (feel free to change this) */
+a{
+    display: block;
+    padding: 8px;
+    background-color: black;
+    text-decoration: none;
+    color: orange;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+/* Adding a hover pseudoclass that changes the bg color when 
+the mouse hovers over our <li>s */
+li a:hover{
+    background-color: #7e7e7e;
+}
+.navBar{
+    position: sticky;
+}
+.theRest{
+    clear:left;
+}
